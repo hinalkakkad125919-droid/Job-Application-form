@@ -1,0 +1,318 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-IN style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:16.0pt;line-height:115%'>JOB APPLICATION FORM:-</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoListParagraph style='text-indent:-.25in'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Jobform.jsp:-</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;%@ page language=&quot;java&quot;
+contentType=&quot;text/html; charset=UTF-8&quot;%&gt;</p>
+
+<p class=MsoNormal>&lt;!DOCTYPE html&gt;</p>
+
+<p class=MsoNormal>&lt;html&gt;</p>
+
+<p class=MsoNormal>&lt;head&gt;</p>
+
+<p class=MsoNormal>    &lt;meta charset=&quot;UTF-8&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;title&gt;Job Application Form&lt;/title&gt;</p>
+
+<p class=MsoNormal>&lt;/head&gt;</p>
+
+<p class=MsoNormal>&lt;body bgcolor=&quot;#f2f2f2&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;h2 align=&quot;center&quot;
+style=&quot;font-size:28px;&quot;&gt;Job Application Form&lt;/h2&gt;</p>
+
+<p class=MsoNormal>    &lt;form action=&quot;jobprocess.jsp&quot;
+method=&quot;post&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;table align=&quot;center&quot;
+border=&quot;1&quot; cellpadding=&quot;10&quot; bgcolor=&quot;white&quot; </p>
+
+<p class=MsoNormal>               style=&quot;width: 60%; font-size:18px;
+border-collapse: collapse;&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;tr&gt;</p>
+
+<p class=MsoNormal>                &lt;td&gt;&lt;b&gt;Full
+Name:&lt;/b&gt;&lt;/td&gt;</p>
+
+<p class=MsoNormal>                &lt;td&gt;&lt;input type=&quot;text&quot;
+name=&quot;name&quot; style=&quot;width:95%; height:30px;&quot;
+required&gt;&lt;/td&gt;</p>
+
+<p class=MsoNormal>            &lt;/tr&gt;</p>
+
+<p class=MsoNormal>            &lt;tr&gt;</p>
+
+<p class=MsoNormal>               
+&lt;td&gt;&lt;b&gt;Email:&lt;/b&gt;&lt;/td&gt;</p>
+
+<p class=MsoNormal>                &lt;td&gt;&lt;input type=&quot;email&quot;
+name=&quot;email&quot; style=&quot;width:95%; height:30px;&quot;
+required&gt;&lt;/td&gt;</p>
+
+<p class=MsoNormal>            &lt;/tr&gt;</p>
+
+<p class=MsoNormal>            &lt;tr&gt;</p>
+
+<p class=MsoNormal>               
+&lt;td&gt;&lt;b&gt;Phone:&lt;/b&gt;&lt;/td&gt;</p>
+
+<p class=MsoNormal>                &lt;td&gt;&lt;input type=&quot;text&quot;
+name=&quot;phone&quot; style=&quot;width:95%; height:30px;&quot;
+required&gt;&lt;/td&gt;</p>
+
+<p class=MsoNormal>            &lt;/tr&gt;</p>
+
+<p class=MsoNormal>            &lt;tr&gt;</p>
+
+<p class=MsoNormal>               
+&lt;td&gt;&lt;b&gt;Gender:&lt;/b&gt;&lt;/td&gt;</p>
+
+<p class=MsoNormal>                &lt;td&gt;</p>
+
+<p class=MsoNormal>                    &lt;input type=&quot;radio&quot;
+name=&quot;gender&quot; value=&quot;Male&quot; required&gt; Male</p>
+
+<p class=MsoNormal>                    &lt;input type=&quot;radio&quot;
+name=&quot;gender&quot; value=&quot;Female&quot;&gt; Female</p>
+
+<p class=MsoNormal>                &lt;/td&gt;</p>
+
+<p class=MsoNormal>            &lt;/tr&gt;</p>
+
+<p class=MsoNormal>            &lt;tr&gt;</p>
+
+<p class=MsoNormal>               
+&lt;td&gt;&lt;b&gt;Position:&lt;/b&gt;&lt;/td&gt;</p>
+
+<p class=MsoNormal>                &lt;td&gt;</p>
+
+<p class=MsoNormal>                    &lt;select name=&quot;position&quot;
+style=&quot;width:95%; height:35px;&quot; required&gt;</p>
+
+<p class=MsoNormal>                        &lt;option
+value=&quot;&quot;&gt;--Select--&lt;/option&gt;</p>
+
+<p class=MsoNormal>                        &lt;option
+value=&quot;Developer&quot;&gt;Developer&lt;/option&gt;</p>
+
+<p class=MsoNormal>                        &lt;option
+value=&quot;Designer&quot;&gt;Designer&lt;/option&gt;</p>
+
+<p class=MsoNormal>                        &lt;option
+value=&quot;Tester&quot;&gt;Tester&lt;/option&gt;</p>
+
+<p class=MsoNormal>                    &lt;/select&gt;</p>
+
+<p class=MsoNormal>                &lt;/td&gt;</p>
+
+<p class=MsoNormal>            &lt;/tr&gt;</p>
+
+<p class=MsoNormal>            &lt;tr&gt;</p>
+
+<p class=MsoNormal>                &lt;td&gt;&lt;b&gt;Experience
+(Years):&lt;/b&gt;&lt;/td&gt;</p>
+
+<p class=MsoNormal>                &lt;td&gt;&lt;input type=&quot;number&quot;
+name=&quot;exp&quot; style=&quot;width:95%; height:30px;&quot;
+min=&quot;0&quot; required&gt;&lt;/td&gt;</p>
+
+<p class=MsoNormal>            &lt;/tr&gt;</p>
+
+<p class=MsoNormal>            &lt;tr&gt;</p>
+
+<p class=MsoNormal>                &lt;td&gt;&lt;b&gt;Tell us about
+Yourself:&lt;/b&gt;&lt;/td&gt;</p>
+
+<p class=MsoNormal>                &lt;td&gt;&lt;textarea
+name=&quot;cover&quot; rows=&quot;5&quot; cols=&quot;40&quot;
+style=&quot;width:95%; font-size:16px;&quot;&gt;&lt;/textarea&gt;&lt;/td&gt;</p>
+
+<p class=MsoNormal>            &lt;/tr&gt;</p>
+
+<p class=MsoNormal>            &lt;tr&gt;</p>
+
+<p class=MsoNormal>                &lt;td colspan=&quot;2&quot;
+align=&quot;center&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;input type=&quot;submit&quot;
+value=&quot;Submit Application&quot; </p>
+
+<p class=MsoNormal>                           style=&quot;font-size:18px;
+padding:8px 20px;&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;/td&gt;</p>
+
+<p class=MsoNormal>            &lt;/tr&gt;</p>
+
+<p class=MsoNormal>        &lt;/table&gt;</p>
+
+<p class=MsoNormal>    &lt;/form&gt;</p>
+
+<p class=MsoNormal>&lt;/body&gt;</p>
+
+<p class=MsoNormal>&lt;/html&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>2.jobprocess.jsp:-</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;%@ page language=&quot;java&quot;
+contentType=&quot;text/html; charset=UTF-8&quot;%&gt;</p>
+
+<p class=MsoNormal>&lt;!DOCTYPE html&gt;</p>
+
+<p class=MsoNormal>&lt;html&gt;</p>
+
+<p class=MsoNormal>&lt;head&gt;</p>
+
+<p class=MsoNormal>    &lt;meta charset=&quot;UTF-8&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;title&gt;Application Submitted&lt;/title&gt;</p>
+
+<p class=MsoNormal>&lt;/head&gt;</p>
+
+<p class=MsoNormal>&lt;body bgcolor=&quot;#e6f7ff&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;h2 align=&quot;center&quot;&gt;Application Submitted
+Successfully!&lt;/h2&gt;</p>
+
+<p class=MsoNormal>    &lt;table align=&quot;center&quot; border=&quot;1&quot;
+cellpadding=&quot;8&quot; bgcolor=&quot;white&quot;&gt;</p>
+
+<p class=MsoNormal>       
+&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;%=
+request.getParameter(&quot;name&quot;) %&gt;&lt;/td&gt;&lt;/tr&gt;</p>
+
+<p class=MsoNormal>       
+&lt;tr&gt;&lt;td&gt;&lt;b&gt;Email:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;%=
+request.getParameter(&quot;email&quot;) %&gt;&lt;/td&gt;&lt;/tr&gt;</p>
+
+<p class=MsoNormal>       
+&lt;tr&gt;&lt;td&gt;&lt;b&gt;Phone:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;%=
+request.getParameter(&quot;phone&quot;) %&gt;&lt;/td&gt;&lt;/tr&gt;</p>
+
+<p class=MsoNormal>       
+&lt;tr&gt;&lt;td&gt;&lt;b&gt;Gender:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;%=
+request.getParameter(&quot;gender&quot;) %&gt;&lt;/td&gt;&lt;/tr&gt;</p>
+
+<p class=MsoNormal>       
+&lt;tr&gt;&lt;td&gt;&lt;b&gt;Position:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;%=
+request.getParameter(&quot;position&quot;) %&gt;&lt;/td&gt;&lt;/tr&gt;</p>
+
+<p class=MsoNormal>       
+&lt;tr&gt;&lt;td&gt;&lt;b&gt;Experience:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;%=
+request.getParameter(&quot;exp&quot;) %&gt; years&lt;/td&gt;&lt;/tr&gt;</p>
+
+<p class=MsoNormal>        &lt;tr&gt;&lt;td&gt;&lt;b&gt;Cover
+Letter:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;%=
+request.getParameter(&quot;cover&quot;) %&gt;&lt;/td&gt;&lt;/tr&gt;</p>
+
+<p class=MsoNormal>    &lt;/table&gt;</p>
+
+<p class=MsoNormal>    &lt;br&gt;</p>
+
+<p class=MsoNormal>    &lt;div align=&quot;center&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;a href=&quot;jobform.jsp&quot;&gt;Back to
+Form&lt;/a&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&lt;/body&gt;</p>
+
+<p class=MsoNormal>&lt;/html&gt;</p>
+
+</div>
+
+</body>
+
+</html>
